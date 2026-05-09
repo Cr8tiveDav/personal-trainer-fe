@@ -41,10 +41,7 @@ const CoreBeliefs = () => {
                 <div className="mb-4 flex h-[52px] w-[52px] items-center justify-center rounded-xl bg-[#005F8B1A]">
                   <Image src={item.icon} alt="icon" width={32} height={32} />
                 </div>
-                <h3
-                  className="mb-3 text-base font-medium text-[#1C1C1C] md:text-lg"
-                  data-testid="integrity"
-                >
+                <h3 className="mb-3 text-base font-medium text-[#1C1C1C] md:text-lg">
                   {item.title}
                 </h3>
                 <p className="text-[14px] font-[400] text-neutral-600 md:text-[16px]">

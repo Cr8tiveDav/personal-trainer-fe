@@ -9,6 +9,12 @@ const Hero = () => {
           tag="Our story"
           title={'Built for people who are tired \nof starting over.'}
           content={`Apps don't fix consistency. People do. FitCall pairs you with real trainers who guide every session, live, so you actually show up.`}
+          testIds={{
+            header: 'about-header',
+            tag: 'about-tag',
+            title: 'about-title',
+            description: 'about-description',
+          }}
         />
 
         <div className="w-full overflow-hidden">
